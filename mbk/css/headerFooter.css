@@ -1,0 +1,156 @@
+body{
+    padding-top:0;
+    background-color: #f0f4f5;
+}
+#navbar a{
+    text-decoration: none;
+    color: #f0f4f5;
+}
+
+#navbar{
+    width: 100vw;
+    max-width: 100%;
+    height: 15vh;
+    background-color: #173558;
+    position: fixed;
+    border-bottom: 1.25vh solid rgb(97, 99, 102);
+    border-top: 1.25vh solid rgb(97, 99, 102);
+    box-sizing: border-box;
+    line-height: 12.5vh;
+    font-size: 3.5vh;
+    font-family: "droid serif";
+    z-index: 17;
+}
+
+#logowrapper{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    height: 0px;
+    width: 100%;
+    z-index: 18;
+}
+
+#navlogo{
+    position: relative;
+    height: 11.5vh;
+    top: 1.75vh;
+}
+
+#navlogo:hover{
+    background-color: rgba(0,0,0, 0.2);
+}
+
+.navlinks{
+    position: absolute;
+}
+
+.navleft{
+    left: 4vh;
+}
+
+.navright{
+    right: 4vh;
+}
+
+.toplinks{
+    margin-left: 2vh;
+}
+
+.toplinks:hover{
+    background-color: rgba(0,0,0, 0.2);
+    text-decoration: underline !important;
+}
+
+
+#navpadding{
+    height: 15vh;
+}
+
+#footer{
+    width: 100vw;
+    max-width: 100%;
+    height: 15vh;
+    background-color: #173558;
+    color: #f0f4f5;
+    font-family: "droid serif";
+    z-index: 16;
+}
+
+#footercontact{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 15vh;   
+}
+
+#footercontact a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+#footercontact img{
+    vertical-align: middle;
+}
+
+#navIcon{
+    visibility: hidden;
+    position: absolute;
+}
+
+#mobilenav{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 13.75vh;
+    width: 100vw;
+    max-width: 100%;
+    background-color: #173558;
+}
+
+.mobilenavlinks{
+    width: 90vw;
+    position: relative;
+    left: 5vw;
+}
+
+.mobilenavlinks a{
+    display: block;
+    width: 100%;
+    text-align: right;
+    border-top: 2px solid rgb(97, 99, 102);
+    padding-right: 5vw;
+}
+
+.mobilenavlinks a:first-of-type{
+    border: none;
+}
+
+.mobilenavlinks a:hover{
+    background-color: rgba(0,0,0, 0.2);
+}
+
+@media all and (max-width: 1020px){
+    #logowrapper{
+        justify-content: flex-start;
+    }
+    
+    #navlogo{
+        margin-left: 4vw;
+    }
+    
+    .navlinks{
+        visibility: hidden;
+    }
+
+    #navIcon{
+        visibility: visible;
+        display: inline-block;
+        position: absolute;
+        right: 2vh;
+        height: 8vh;
+        margin-top: 2.25vh;
+        cursor: pointer;
+    }
+}

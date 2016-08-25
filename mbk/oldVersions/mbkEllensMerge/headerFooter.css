@@ -1,0 +1,78 @@
+body{
+    padding-top:0;
+    background-color: #f0f4f5;
+}
+#navbar a{
+    text-decoration: none;
+    color: #f0f4f5;
+}
+
+#navbar{
+    width: 100vw;
+    max-width: 100%;
+    height: 15vh;
+    background-color: #173558;
+    position: fixed;
+    border-bottom: 1.25vh solid #314358;
+    border-top: 1.25vh solid #314358;
+    box-sizing: border-box;
+    line-height: 12.5vh;
+    font-size: 3.5vh;
+    font-family: "droid serif";
+    z-index: 1;
+}
+
+#navlogo{
+    position: fixed;
+    height: 14vh;
+    top: 0.75vh;
+    margin-left: 2vh;
+    z-index: 2;
+
+}
+
+#navlinks{
+    position: absolute;
+    right: 4vh;
+
+}
+
+.toplinks{
+    margin-left: 2vh;
+}
+
+
+#navpadding{
+    height: 15vh;
+}
+
+#footer{
+    width: 100vw;
+    max-width: 100%;
+    height: 15vh;
+    background-color: #173558;
+    color: #f0f4f5;
+    font-family: "droid serif";
+}
+
+#navIcon{
+    visibility: hidden;
+    position: absolute;
+}
+
+
+@media all and (max-width: 1020px){
+    #navlinks{
+        visibility: hidden;
+    }
+
+    #navIcon{
+        visibility: visible;
+        display: inline-block;
+        position: absolute;
+        right: 2vh;
+        height: 8vh;
+        margin-top: 2.25vh;
+        cursor: pointer;
+    }
+}
