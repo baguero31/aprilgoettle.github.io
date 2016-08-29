@@ -33,27 +33,27 @@ $(window).scroll(function(){
             lastPositionAtTop = true; 
             $("#navbar, #navpadding").stop(true).animate({ 
                 opacity: 1,
-                height: "15vh",
-                borderBottomWidth: "1.25vh",
-                borderTopWidth: "1.25vh",
+                height: "20vh",
+                borderBottomWidth: "1.5vh",
+                borderTopWidth: "1.5vh",
                 fontSize: "3.5vh",
-                lineHeight: "12.5vh",
+                lineHeight: "17vh",
             }, 500);
 
             $("#navlogo").stop(true).animate({
-                height: "11.5vh",
-                top: "1.75vh",
+                height: "16vh",
+                top: "2vh",
             }, 500);
 
             if($("#navIcon").is(":visible")){
                 $("#navIcon").stop(true).animate({
                     height: "8vh",
-                    marginTop: "2.25vh",
+                    marginTop: "4.75vh",
                 }, 500);
             }
             
             $("#mobilenav").css({
-                top: "13.75vh"
+                top: "18.25vh"
             });
         }
     }
