@@ -156,6 +156,21 @@ body{
         margin-top: 4.75vh;
         cursor: pointer;
     }
+    #map-outer {
+	    height: 440px;
+		padding: 20px;
+		border: 2px solid #CCC;
+		margin-bottom: 20px;
+		background-color: #FFF;
+		}
+			
+		
+		@media all and (max-width: 991px) {
+			#map-outer {
+				height: 650px;
+			}
+		}
+			
     #map-container {
         position: relative;
         padding-bottom: 75%; // This is the aspect ratio
