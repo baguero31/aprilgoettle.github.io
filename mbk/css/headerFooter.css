@@ -165,11 +165,11 @@ body{
 		}
 			
 		
-	//*	@media all and (max-width: 991px) {
+		@media all and (max-width: 991px) {
 			#map-outer {
 				height: 650px;
 			}
-		}*//
+		}
 			
     #map-container {
         position: relative;
