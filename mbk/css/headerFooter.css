@@ -80,13 +80,13 @@ body{
     background-color: #173558;
     color: #f0f4f5;
     font-family: "droid serif";
-    z-index: 16;
+    border-top: 1.5vh solid rgb(97, 99, 102);
 }
 
 #footercontact{
     text-align: center;
     vertical-align: middle;
-    line-height: 15vh;   
+    line-height: 13.5vh;   
 }
 
 #footercontact a{
