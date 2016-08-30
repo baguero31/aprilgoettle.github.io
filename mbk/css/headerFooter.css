@@ -156,6 +156,7 @@ body{
         margin-top: 4.75vh;
         cursor: pointer;
     }
+}
     #map-outer {
 	    height: 440px;
 		padding: 20px;
