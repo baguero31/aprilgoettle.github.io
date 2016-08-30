@@ -80,7 +80,7 @@ body{
     background-color: #173558;
     color: #f0f4f5;
     font-family: "droid serif";
-    border-top: 1.5vh solid rgb(97, 99, 102);
+    border-top: 1vh solid rgb(97, 99, 102);
 }
 
 #footercontact{
@@ -198,7 +198,7 @@ body{
 				top: 0;
 				left: 0;
 				width: 100% !important;
-				height: 60%;
+				height: 70%;
 			}
 		}
     
